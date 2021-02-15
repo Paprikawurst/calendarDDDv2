@@ -17,4 +17,8 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\calendarDDD.Domain\calendarDDD.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

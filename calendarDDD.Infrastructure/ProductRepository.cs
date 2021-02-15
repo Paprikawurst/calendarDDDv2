@@ -1,4 +1,5 @@
-﻿using calendarDDD.Infrastructure.Interfaces;
+﻿using calendarDDD.Domain.AggregateModels.ProductAggregate;
+using calendarDDD.Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using calendarDDD.Domain.AggregateModels.UserAggregate;
 
 namespace calendarDDD.Infrastructure
 {

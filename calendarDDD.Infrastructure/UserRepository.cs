@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using calendarDDD.Domain.AggregateModels.UserAggregate;
 using calendarDDD.Infrastructure.Interfaces;
 
 namespace calendarDDD.Infrastructure

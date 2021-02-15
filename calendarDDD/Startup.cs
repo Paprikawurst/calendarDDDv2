@@ -1,3 +1,5 @@
+using calendarDDD.Domain.AggregateModels.ProductAggregate;
+using calendarDDD.Domain.AggregateModels.UserAggregate;
 using calendarDDD.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
