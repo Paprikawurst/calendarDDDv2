@@ -5,8 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using calendarDDD.Domain.AggregateModels.ProductAggregate;
-using calendarDDD.Domain.AggregateModels.UserAggregate;
 
 namespace calendarDDD.Web
 {

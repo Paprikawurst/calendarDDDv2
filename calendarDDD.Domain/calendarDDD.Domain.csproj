@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\calendarDDD.Domain.Shared\calendarDDD.Domain.Shared.csproj" />
+    <ProjectReference Include="..\calendarDDD.Infrastructure\calendarDDD.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
