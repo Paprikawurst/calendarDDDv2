@@ -1,6 +1,5 @@
 ﻿@page "/product"
 @using calendarDDD.Domain.AggregateModels.ProductAggregate
-@using System.Threading.Tasks
 @inject ProductAggregate Service
 
 <div class="container">
@@ -88,7 +87,9 @@ else
         </div>
     </div>
 </div>
-@code { List<ProductEntity> Products = new List<ProductEntity>();
+@code { 
+    
+    List<ProductEntity> Products = new List<ProductEntity>();
     public ProductEntity NewProduct { get; set; } = new ProductEntity();
 
     protected override async Task OnInitializedAsync()

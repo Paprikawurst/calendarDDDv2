@@ -31,7 +31,7 @@ namespace calendarDDD.Web
             {
                 options.UseSqlite("Data Source = Products.db");
             });
-            services.AddScoped<ProductAggregate>();
+            services.AddScoped<ProductAggregate>(); //scoped = instantiated once per scope
 
 
             services.AddDbContext<UserDbContext>(options =>

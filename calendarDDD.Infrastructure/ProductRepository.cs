@@ -7,8 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace calendarDDD.Infrastructure
-{       
-    //hieß vorher ProductServices
+{
     public class ProductRepository : IProductRepository
     {
         private ProductDbContext dbContext;

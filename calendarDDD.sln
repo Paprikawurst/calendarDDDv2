@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calendarDDD.Application.Con
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F2484F9B-163F-42BE-8624-C181234E9FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendarDDD.Tests", "calendarDDD.Tests\calendarDDD.Tests.csproj", "{B2625259-85CE-4D50-A429-A4FFB3BA08EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calendarDDD.Web.Test", "calendarDDD.Tests\calendarDDD.Web.Test.csproj", "{B2625259-85CE-4D50-A429-A4FFB3BA08EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendarDDD.Domain.Test", "calendarDDD.Domain.Test\calendarDDD.Domain.Test.csproj", "{08D19F87-D624-4B80-A8C4-C59E92D11964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{B2625259-85CE-4D50-A429-A4FFB3BA08EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2625259-85CE-4D50-A429-A4FFB3BA08EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2625259-85CE-4D50-A429-A4FFB3BA08EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D19F87-D624-4B80-A8C4-C59E92D11964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D19F87-D624-4B80-A8C4-C59E92D11964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D19F87-D624-4B80-A8C4-C59E92D11964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D19F87-D624-4B80-A8C4-C59E92D11964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{35CD1B60-7062-46E1-95F8-AB9BC82BE699} = {F29C31EE-C91B-4DA0-9EF2-5B95269E98C2}
 		{C6D25765-57C7-401B-8A22-B4B355E7E5AF} = {F29C31EE-C91B-4DA0-9EF2-5B95269E98C2}
 		{B2625259-85CE-4D50-A429-A4FFB3BA08EC} = {F2484F9B-163F-42BE-8624-C181234E9FCA}
+		{08D19F87-D624-4B80-A8C4-C59E92D11964} = {F2484F9B-163F-42BE-8624-C181234E9FCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AD8AA78-69A7-4D8E-9C7D-5CD2A977B770}
