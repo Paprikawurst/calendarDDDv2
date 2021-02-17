@@ -30,8 +30,5 @@ namespace calendarDDD.Domain.AggregateModels.ProductAggregate
         //    return await Task.FromResult(productEntity);
         //}
 
-
-
-
     }
 }

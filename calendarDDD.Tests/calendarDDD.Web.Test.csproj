@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\calendarDDD.Domain\calendarDDD.Domain.csproj" />
+    <ProjectReference Include="..\calendarDDD\calendarDDD.Web.csproj" />
+  </ItemGroup>
+
 </Project>
